@@ -1,0 +1,41 @@
+{
+  "name": "DarkSkyWeather",
+  "version": "1.0.0",
+  "description": "Dark Sky es una gran empresa que ofrece datos oportunos y actualizados de las predicciones del clima de acuerdo a tu localización.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgmp2/DarkSkyWeather"
+  },
+  "keywords": [
+    "unit testing ",
+    "API",
+    "HACKER EDITION",
+    "gulp",
+    "server"
+  ],
+  "author": "Miriam Mendoza <miriammp1997@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgmp2/DarkSkyWeather/issues"
+  },
+  "homepage": "https://github.com/mgmp2/DarkSkyWeather#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "concat": "^1.0.3",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
